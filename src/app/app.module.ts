@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SingleUserComponent } from './components/single-user/single-user.component';
 import { HomeComponent } from './components/home/home.component';
+import { AllUsersComponent } from './components/all-users/all-users.component';
 // import { UserService } from './services/user.service';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { HomeComponent } from './components/home/home.component';
     AppComponent,
     SingleUserComponent,
     HomeComponent,
+    AllUsersComponent,
   ],
   imports: [
     AppRoutingModule,
